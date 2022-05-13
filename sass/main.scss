@@ -1,1 +1,11 @@
-@import '/sass/utils/vars';
+@import 'base/common';
+@import 'utils/vars';
+@import 'components/header';
+@import 'components/hero';
+@import 'components/benefits';
+@import 'components/about';
+@import 'components/team';
+@import 'components/clients';
+@import 'components/portfolio';
+@import 'components/footer';
+@import 'components/backdrop';
