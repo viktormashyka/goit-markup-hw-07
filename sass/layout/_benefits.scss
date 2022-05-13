@@ -18,7 +18,6 @@
   height: 120px;
   justify-content: center;
   align-items: center;
-  /* margin-bottom: 30px; */
 }
 
 .benefits__bg--bottom {
@@ -27,10 +26,10 @@
 
 .benefits__item {
   width: 270px;
-}
 
-.benefits__item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .benefits__title {
@@ -40,7 +39,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-color);
-  /* margin-bottom: 10px; */
 }
 
 .benefits__title--bottom {
